@@ -1,0 +1,39 @@
+#gameBoard {  
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+
+.table {
+  display: table;
+  border-radius: 5px;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  width: 75px;
+  height: 75px;
+  display: table-cell;
+  border: 1px solid black;
+}
+
+#selection {
+  text-align: center;
+}
+
+.player1 {
+  background-color: red;
+}
+
+.player2 {
+  background-color: yellow;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
