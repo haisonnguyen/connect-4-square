@@ -43,6 +43,7 @@ impl Server {
             if self.game.check_win_conditions() {
                 Ok("Winner".to_string())
             } else {
+                self.game.next_player();
                 Ok("Set Move".to_string())
             }
         } else if command.contains("Reset") {
